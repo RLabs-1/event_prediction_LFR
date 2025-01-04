@@ -1,0 +1,22 @@
+[0;32m[v 6.0.48/0] [32mPolicy.3791500@INFO  | 08/12/2024 13:07:00.033(1733656020033)[m> PolicyCondition setActive oldStatus: false newStatus: false, source=HandleStateChangeSuccess change condition active flag to false for condition 413.1, condition data:{"timeParameters":{"month":"","hour":"","year":"","daysOfWeek":"","day":"","minute":"0"},"conditionType":"time"}
+[0;32m[v 6.0.48/0] [32mPolicy.3791500@INFO  | 08/12/2024 13:07:00.033(1733656020033)[m> PolicyCondition notifyConditionChange: not_changed_not_active conditionsToTakePlace: 2
+[0;32m[v 6.0.48/0] [32mPolicy.3791500@INFO  | 08/12/2024 13:07:00.033(1733656020033)[m> PolicyCondition notifyConditionChange checking condition active status: false
+Condition data:{"timeParameters":{"month":"","hour":"","year":"","daysOfWeek":"","day":"","minute":"0"},"conditionType":"time"}
+
+[0;32m[v 6.0.48/0] [32mPolicy.3791500@INFO  | 08/12/2024 13:07:00.034(1733656020034)[m> PolicyCondition notifyConditionChange checking condition active status: false
+Condition data:{"conditionType":"timeRange","type":"timeRange","timeRangeParameters":{"start":{"month":"","hour":"0","year":"","daysOfWeek":"","day":"","minute":"0"},"end":{"month":"","hour":"13","year":"","daysOfWeek":"","day":"","minute":"0"}}}
+[0;32m[v 6.0.48/0] [32mPolicy.3791500@INFO  | 08/12/2024 13:07:00.034(1733656020034)[m> PolicyManager notify Policy: name:Schedule on group CDS Recepción ID: 413 mode: NON_CANCELING_OFF
+[0;32m[v 6.0.48/0] [32mSecurity.3791500@INFO  | 08/12/2024 13:07:30.064(1733656050064)[m> SecurityManager handleMessageDeviceDriven Message adr:B9A9DFDF ID:00000000
+[0;32m[v 6.0.48/0] [32mSecurity.3791500@INFO  | 08/12/2024 13:07:30.065(1733656050065)[m> handleInSessionIncomingMessage start adr:B9A9DFDF ID:00000000
+[0;32m[v 6.0.48/0] [32mSecurity.3791500@INFO  | 08/12/2024 13:07:30.065(1733656050065)[m> handleInSessionIncomingMessage Time to handle: 1ms adr:B9A9DFDF ID:00000000
+[0;32m[v 6.0.48/0] [32mSecurity.3791500@INFO  | 08/12/2024 13:07:30.066(1733656050066)[m> handleInSessionIncomingMessage Time to Network handle: 0ms adr:B9A9DFDF ID:00000000
+[0;32m[v 6.0.48/0] [36mNetwork.3791500@DEBUG | 08/12/2024 13:07:30.068(1733656050068)[m> Scheduling keepalive timer for B9A9DFDF: (General 29763)[Graph at 08/12/2024 03:30:00](last msg at :08/12/2024 13:07:30): Base  <(208~5)- B9A9DFDF will start after 320000ms
+[0;32m[v 6.0.48/0] [32mNetwork.3790744@INFO  | 08/12/2024 13:07:30.069(1733656050069)[m> device driven message received to device B9A9DFDF, OPCode:A3, MessageId:00000000 => com.mindolife.q.c.a.f, OPCode:A3, Port:A6, dataSection1:1F, dataSection2:00, DataSection3:06, DataSection4:01, DataSection5:00
+[0;32m[v 6.0.48/0] [36mNetwork.3791705@DEBUG | 08/12/2024 13:07:30.070(1733656050070)[m> Handeling device driven message to device B9A9DFDF for handler NetworkManager
+[0;32m[v 6.0.48/0] [36mNetwork.3791500@DEBUG | 08/12/2024 13:07:30.070(1733656050070)[m> message 00000000 on port A6, message:com.mindolife.q.c.a.f, OPCode:A3, Port:A6, dataSection1:1F, dataSection2:00, DataSection3:06, DataSection4:01, DataSection5:00 received for endpoint B9A9DFDF
+[0;32m[v 6.0.48/0] [36mNetwork.3791705@DEBUG | 08/12/2024 13:07:30.071(1733656050071)[m> Updating RSSI (209) for device B9A9DFDF: (General 29763)[Graph at 08/12/2024 03:30:00](last msg at :08/12/2024 13:07:30): Base  <(209~5)- B9A9DFDF
+[0;32m[v 6.0.48/0] [36mNetwork.3791705@DEBUG | 08/12/2024 13:07:30.071(1733656050071)[m> Handler NetworkManager Handeled device driven message B9A9DFDF took 1 ms
+[0;32m[v 6.0.48/0] [32mDevice.3791500@INFO  | 08/12/2024 13:07:30.074(1733656050074)[m> Change feature event from device General 29763 received for feature Temperature with key : 6.1 changed to {"authenticValue":"262","value":"26.2"}
+[0;32m[v 6.0.48/0] [32mPolicy.3791500@INFO  | 08/12/2024 13:07:30.074(1733656050074)[m> Checking rule range, changedValue={"authenticValue":"262","value":"26.2"}
+[0;32m[v 6.0.48/0] [32mPolicy.3791500@INFO  | 08/12/2024 13:07:30.075(1733656050075)[m> Checking rule range, condition3 false
+[0;32m[v 6.0.48/0] [32mPolicy.3791500@INFO  | 08/12/2024 13:07:30.075(1733656050075)[m> after checkRange:false

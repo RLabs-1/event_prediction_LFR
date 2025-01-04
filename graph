@@ -1,0 +1,26 @@
+log_processor/
+|-- __init__.py         # Makes it a Python package
+|-- config_loader.py    # Contains the ConfigLoader class
+|-- log_parser.py       # Contains the LogParser class
+|-- filters.py          # Contains the filtering logic
+|-- batch_processor.py  # Contains batch processing logic
+|-- main.py             # Entry point script
+config.yaml             # YAML configuration file
+
+
+second graph:
+project/
+?
+??? config/
+?   ??? config.yaml
+??? log_processor/
+?   ??? __init__.py
+?   ??? batch_processor.py
+?   ??? config_loader.py
+?   ??? filters.py
+?   ??? log_parser.py
+??? logs/
+?   ??? <log files>
+??? log_processing.log
+??? main.py
+??? parsed_logs.json
