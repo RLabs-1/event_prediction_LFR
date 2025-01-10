@@ -1,0 +1,25 @@
+log_processing:
+  source:
+    location: "?C:\Users\hady-\Desktop\GeneralLog.log"  # Directory containing log files
+
+  format:
+    supported_formats:
+      - "JSON"
+      - "PLAINTEXT"
+  filters:
+    level:
+      - "ERROR"
+      - "DEBUG"
+      - "INFO"
+    include_keywords:
+      -  "Failed"
+    exclude_keywords:
+      - "ERROR"
+    date_range:
+      start: "2024-12-01"  # Start date for filtering logs (YYYY-MM-DD)
+      end: "2024-12-31"    # End date for filtering logs (YYYY-MM-DD)
+  batch:
+    size: 1  # Number of log entries processed per batch
+  encoding: "utf-8"
+  output:
+     file: "parsed_logs.json"  # Ensure this key exists and is properly defined
