@@ -1,6 +1,6 @@
 log_processing:
   source:
-    location: "C:\\Users\\user\\OneDrive\\שולחן העבודה\\logs\\testlog"  # Directory containing log files
+    location: "?C:\Users\hady-\Desktop\GeneralLog.log"  # Directory containing log files
 
   format:
     supported_formats:

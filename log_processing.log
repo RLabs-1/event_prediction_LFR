@@ -698,3 +698,76 @@
 2025-01-04 18:30:50,909 - INFO - Starting log processing application...
 2025-01-04 18:30:50,910 - INFO - Processing logs from directory: C:\Users\user\OneDrive\שולחן העבודה\logs\testlog
 2025-01-04 18:30:53,771 - INFO - Log processing completed successfully.
+2025-01-04 19:06:37,906 - INFO - Starting log processing application...
+2025-01-04 19:06:37,939 - INFO - Log processing completed successfully.
+2025-01-04 19:08:06,674 - INFO - Starting log processing application...
+2025-01-04 19:08:06,708 - INFO - Log processing completed successfully.
+2025-01-04 19:08:52,670 - INFO - Starting log processing application...
+2025-01-04 19:08:52,679 - INFO - Log processing completed successfully.
+2025-01-04 19:18:48,176 - INFO - Starting log processing application...
+2025-01-04 19:18:48,182 - INFO - Log processing completed successfully.
+2025-01-04 19:19:33,166 - INFO - Starting log processing application...
+2025-01-04 19:19:33,170 - INFO - Processing logs from directory: log_processor/GeneralLog.log
+2025-01-04 19:19:33,171 - INFO - Log processing completed successfully.
+2025-01-04 19:20:02,171 - INFO - Starting log processing application...
+2025-01-04 19:20:02,175 - INFO - Log processing completed successfully.
+2025-01-04 19:20:31,190 - INFO - Starting log processing application...
+2025-01-04 19:20:31,193 - INFO - Processing logs from directory: log_processor/GeneralLog.log
+2025-01-04 19:20:31,193 - INFO - Log processing completed successfully.
+2025-01-04 22:34:04,731 - INFO - Starting log processing application...
+2025-01-04 22:34:04,734 - INFO - Processing logs from directory: log_processor/GeneralLog.log
+2025-01-04 22:34:04,735 - INFO - Log processing completed successfully.
+2025-01-04 22:34:18,796 - INFO - Starting log processing application...
+2025-01-04 22:34:18,801 - INFO - Processing logs from directory: log_processor/GeneralLog.log
+2025-01-04 22:34:18,801 - INFO - Log processing completed successfully.
+2025-01-04 22:34:28,363 - INFO - Starting log processing application...
+2025-01-04 22:34:28,371 - INFO - Processing logs from directory: log_processor/GeneralLog.log
+2025-01-04 22:34:28,372 - INFO - Log processing completed successfully.
+2025-01-04 22:35:02,672 - INFO - Starting log processing application...
+2025-01-04 22:35:02,675 - INFO - Processing logs from directory: log_processor/GeneralLog.log
+2025-01-04 22:35:02,676 - INFO - Log processing completed successfully.
+2025-01-05 20:34:27,618 - INFO - Starting log processing application...
+2025-01-05 20:34:27,619 - ERROR - Failed to load configuration: while scanning a double-quoted scalar
+  in "config/.yaml", line 3, column 15
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "config/.yaml", line 3, column 20
+2025-01-05 20:34:37,285 - INFO - Starting log processing application...
+2025-01-05 20:34:37,286 - ERROR - Failed to load configuration: while scanning a double-quoted scalar
+  in "config/.yaml", line 3, column 15
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "config/.yaml", line 3, column 20
+2025-01-05 20:34:47,983 - INFO - Starting log processing application...
+2025-01-05 20:34:47,984 - ERROR - Failed to load configuration: while scanning a double-quoted scalar
+  in "config/.yaml", line 3, column 15
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "config/.yaml", line 3, column 20
+2025-01-05 20:39:05,830 - INFO - Starting log processing application...
+2025-01-05 20:39:05,830 - ERROR - Failed to load configuration: while scanning a double-quoted scalar
+  in "config/.yaml", line 3, column 15
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "config/.yaml", line 3, column 20
+2025-01-05 20:39:13,706 - INFO - Starting log processing application...
+2025-01-05 20:39:13,707 - ERROR - Failed to load configuration: while scanning a double-quoted scalar
+  in "config/.yaml", line 3, column 15
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "config/.yaml", line 3, column 20
+2025-01-05 20:39:27,318 - INFO - Starting log processing application...
+2025-01-05 20:39:27,319 - ERROR - Failed to load configuration: while scanning a double-quoted scalar
+  in "config/.yaml", line 3, column 15
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "config/.yaml", line 3, column 20
+2025-01-05 20:40:18,499 - INFO - Starting log processing application...
+2025-01-05 20:40:18,500 - ERROR - Failed to load configuration: while scanning a double-quoted scalar
+  in "config/.yaml", line 3, column 15
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "config/.yaml", line 3, column 20
+2025-01-05 20:40:38,865 - INFO - Starting log processing application...
+2025-01-05 20:40:38,865 - ERROR - Failed to load configuration: while scanning a double-quoted scalar
+  in "config/.yaml", line 3, column 15
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "config/.yaml", line 3, column 20
+2025-01-05 20:40:50,094 - INFO - Starting log processing application...
+2025-01-05 20:40:50,095 - ERROR - Failed to load configuration: while scanning a double-quoted scalar
+  in "config/.yaml", line 3, column 15
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "config/.yaml", line 3, column 20
