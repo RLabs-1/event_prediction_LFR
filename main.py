@@ -4,7 +4,6 @@ from log_processor.log_parser import LogParser
 from log_processor.filters import LogFilter
 from log_processor.batch_processor import BatchProcessor
 
-
 def setup_logging():
     """
     Configures logging for the application.
@@ -19,7 +18,6 @@ def setup_logging():
         ]
     )
 
-
 if __name__ == "__main__":
     # Step 1: Set up logging
     setup_logging()
@@ -27,7 +25,7 @@ if __name__ == "__main__":
 
     try:
         # Step 2: Load configuration
-        config_file = "config/.yaml"
+        config_file = "config/config.yaml"  # Fixed incorrect path
         config_loader = ConfigLoader(config_file)
         try:
             config = config_loader.load()
@@ -54,20 +52,30 @@ if __name__ == "__main__":
         # Step 3: Initialize components
         log_filter = LogFilter(include_keywords, exclude_keywords, date_range)
         batch_processor = BatchProcessor(batch_size)
-        log_parser = LogParser(source_dir, supported_formats, log_filter, batch_processor, encoding=encoding)
+        try:
+            log_parser = LogParser(source_dir, supported_formats, log_filter, batch_processor, encoding=encoding)
+        except TypeError as e:
+            logging.error(f"Incorrect LogParser arguments: {e}")
+            raise SystemExit("LogParser initialization failed.")
 
         # Step 4: Start processing logs
         logging.info(f"Processing logs from directory: {source_dir}")
         try:
-            log_parser.parse_all_logs()
+            if hasattr(log_parser, 'parse_all_logs'):
+                log_parser.parse_all_logs()
+            else:
+                raise AttributeError("LogParser object has no attribute 'parse_all_logs'")
         except Exception as e:
             logging.error(f"Error during log parsing: {e}")
             raise
 
         # Step 5: Finalize processing
         try:
-            batch_processor.flush()  # Ensure remaining logs are processed
-            logging.info("Log processing completed successfully.")
+            if hasattr(batch_processor, 'flush'):
+                batch_processor.flush()  # Ensure remaining logs are processed
+                logging.info("Log processing completed successfully.")
+            else:
+                raise AttributeError("BatchProcessor object has no attribute 'flush'")
         except Exception as e:
             logging.error(f"Error during batch finalization: {e}")
             raise
