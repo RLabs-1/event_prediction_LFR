@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668e3d4-1edf-476a-978d-58c1e744c997" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/log_processor/test_log_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LFR_config_multi_format_parsing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LFR_config_multi_format_parsing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_processing.log" beforeDir="false" afterPath="$PROJECT_DIR$/log_processing.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_processor/log_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_processor/log_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsed_logs.json" beforeDir="false" afterPath="$PROJECT_DIR$/parsed_logs.json" afterDir="false" />
-    </list>
+    <list default="true" id="5668e3d4-1edf-476a-978d-58c1e744c997" name="Changes" comment="updated LFR project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test.TestLogFilter.executor": "Run",
     "Python tests.Python tests for test_log_processing.TestLogParser.executor": "Run",
     "Python tests.Python tests for test_log_processing.TestLogParser.test_full_processing.executor": "Run",
     "Python tests.Python tests for test_log_processing.TestLogParser.test_parse_caused_by.executor": "Run",
@@ -101,7 +92,7 @@
       <recent name="C:\Users\user\PycharmProjects\LFR_config_multi_format_parsing\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_log_processing.TestLogParser.test_full_processing">
+  <component name="RunManager" selected="Python tests.Python tests for test.TestLogFilter">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="LFR_config_multi_format_parsing" />
       <option name="ENV_FILES" value="" />
@@ -118,30 +109,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="log_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LFR_config_multi_format_parsing" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/log_processor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/log_processor/log_parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,6 +165,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test.TestLogFilter" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="LFR_config_multi_format_parsing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/log_processor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestLogFilter&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_log_processing.TestLogParser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LFR_config_multi_format_parsing" />
       <option name="ENV_FILES" value="" />
@@ -249,18 +232,18 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.oneTest" />
-      <item itemvalue="Python.log_parser" />
+      <item itemvalue="Python tests.Python tests for test.TestLogFilter" />
       <item itemvalue="Python tests.Python tests for test_log_processing.TestLogParser" />
       <item itemvalue="Python tests.Python tests for test_log_processing.TestLogParser.test_full_processing" />
       <item itemvalue="Python tests.Python tests for test_log_processing.TestLogParser.test_parse_caused_by" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test.TestLogFilter" />
         <item itemvalue="Python tests.Python tests for test_log_processing.TestLogParser.test_full_processing" />
         <item itemvalue="Python tests.Python tests for test_log_processing.TestLogParser" />
         <item itemvalue="Python tests.Python tests for test_log_processing.TestLogParser.test_parse_caused_by" />
         <item itemvalue="Python.oneTest" />
-        <item itemvalue="Python.log_parser" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +274,7 @@
       <workItem from="1736102323449" duration="786000" />
       <workItem from="1736103170307" duration="214000" />
       <workItem from="1736103419770" duration="285000" />
-      <workItem from="1742926723852" duration="12839000" />
+      <workItem from="1742926723852" duration="13339000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -301,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736009810913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="updated LFR project">
+      <option name="closed" value="true" />
+      <created>1743089231229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1743089231229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +311,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="updated LFR project" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated LFR project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/parsed_logs_json$main.coverage" NAME="main Coverage Results" MODIFIED="1736103524547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -330,6 +322,6 @@
     <SUITE FILE_PATH="coverage/parsed_logs_json$batch_processor.coverage" NAME="batch_processor Coverage Results" MODIFIED="1736102994317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log_processor" />
     <SUITE FILE_PATH="coverage/parsed_logs_json$config_loader.coverage" NAME="config_loader Coverage Results" MODIFIED="1736102987924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log_processor" />
     <SUITE FILE_PATH="coverage/LFR_config_multi_format_parsing$main.coverage" NAME="main Coverage Results" MODIFIED="1735238984088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/parsed_logs_json$.coverage" NAME=" Coverage Results" MODIFIED="1743088772708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log_processor" />
+    <SUITE FILE_PATH="coverage/parsed_logs_json$.coverage" NAME=" Coverage Results" MODIFIED="1743089118861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log_processor" />
   </component>
 </project>
