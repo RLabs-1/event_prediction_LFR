@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668e3d4-1edf-476a-978d-58c1e744c997" name="Changes" comment="updated LFR project" />
+    <list default="true" id="5668e3d4-1edf-476a-978d-58c1e744c997" name="Changes" comment="updated LFR project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_processing.log" beforeDir="false" afterPath="$PROJECT_DIR$/log_processing.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsed_logs.json" beforeDir="false" afterPath="$PROJECT_DIR$/parsed_logs.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,20 +33,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "hadiheib99"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hadiheib99&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RLabs-1/event_prediction_LFR.git",
-    "accountId": "83d05a2b-3dd9-4596-97c3-5d24b9c0064f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RLabs-1/event_prediction_LFR.git&quot;,
+    &quot;accountId&quot;: &quot;83d05a2b-3dd9-4596-97c3-5d24b9c0064f&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -68,9 +77,9 @@
     "Python.main.executor": "Run",
     "Python.oneTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "AndilhadiH",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/hady-/Downloads/event_prediction_LFR-master",
+    "last_opened_file_path": "C:/Users/hady-/Desktop/AIintership/EventSpecialist_monitoring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -274,7 +283,10 @@
       <workItem from="1736102323449" duration="786000" />
       <workItem from="1736103170307" duration="214000" />
       <workItem from="1736103419770" duration="285000" />
-      <workItem from="1742926723852" duration="13339000" />
+      <workItem from="1742926723852" duration="13768000" />
+      <workItem from="1743504918366" duration="672000" />
+      <workItem from="1744733698842" duration="23000" />
+      <workItem from="1744904250412" duration="2582000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -292,7 +304,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1743089231229</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="updated LFR project">
+      <option name="closed" value="true" />
+      <created>1743089474985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1743089474985</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="updated LFR project">
+      <option name="closed" value="true" />
+      <created>1743089607683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1743089607683</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
