@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668e3d4-1edf-476a-978d-58c1e744c997" name="Changes" comment="updated LFR project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_processing.log" beforeDir="false" afterPath="$PROJECT_DIR$/log_processing.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsed_logs.json" beforeDir="false" afterPath="$PROJECT_DIR$/parsed_logs.json" afterDir="false" />
-    </list>
+    <list default="true" id="5668e3d4-1edf-476a-978d-58c1e744c997" name="Changes" comment="updated LFR project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,7 +282,7 @@
       <workItem from="1742926723852" duration="13768000" />
       <workItem from="1743504918366" duration="672000" />
       <workItem from="1744733698842" duration="23000" />
-      <workItem from="1744904250412" duration="2582000" />
+      <workItem from="1744904250412" duration="2957000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
